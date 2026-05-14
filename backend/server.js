@@ -17,7 +17,7 @@ app.use(cors());
 app.use(express.json());
 
 let pool;
-
+// Este es un comentario para genear el flujo
 // Inicializar pool de conexiones
 async function initDb() {
   try {
@@ -31,7 +31,7 @@ async function initDb() {
       connectionLimit: 10,
       queueLimit: 0,
     });
-    console.log("Pool de conexiones MySQL inicializado.");
+    console.log("Pool de conexiones MySQL inicializado pulento.");
   } catch (err) {
     console.error("Error al inicializar pool de MySQL:", err);
   }
