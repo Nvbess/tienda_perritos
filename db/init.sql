@@ -10,6 +10,6 @@ CREATE TABLE IF NOT EXISTS productos (
 );
 
 INSERT INTO productos (nombre, descripcion, precio, stock) VALUES
-('Alimento Cachorro Premium', 'Sabor pollo, razas pequeñas', 19990, 15),
-('Alimento Adulto Light', 'Control de peso, razas medianas', 17990, 8),
-('Snacks Dentales', 'Ayuda a la limpieza dental', 5990, 30);
+('Alimento Cachorro Premium Bacan', 'Sabor pollo, razas pequeñas', 19990, 15),
+('Alimento Adulto Light Bacan', 'Control de peso, razas medianas', 17990, 8),
+('Snacks Dentales Bacan', 'Ayuda a la limpieza dental', 5990, 30);
